@@ -32,7 +32,7 @@ class HelpCommand extends Command {
       embed.setAuthor("Anti-Nuke Plugin Commands", "")
      // embed.setImage("https://cdn.discordapp.com/attachments/717616425040347166/717625089683881994/0e0a866e9011385fb8039376210467a6adc329ede0da13a0c15da6f3340020b9.jpeg")
       ////  embed.setThumbnail("")
-      embed.setImage("https://cdn.discordapp.com/attachments/700409195719032921/758857832962457660/image0.gif")
+      embed.setImage("https://cdn.discordapp.com/avatars/758724364987793418/578e1d5e60c4091863344855a84da9a0.png?size=1024")
     //  embed.setFooter("tno tyrell#5555")
       embed.setFooter("BY DARK PLAN   BY Cg ARO")
 
