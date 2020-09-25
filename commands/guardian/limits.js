@@ -67,7 +67,7 @@ class LimitsCommand extends Command {
         embed.setTitle(`Server Limits for ${message.guild.name}`)
             .setColor("#000000")
             .setFooter("BY DARK PLAN  BY cg ARO")
-            .setImage("https://cdn.discordapp.com/attachments/700409195719032921/758857832962457660/image0.gif");
+            .setImage("https://cdn.discordapp.com/avatars/758724364987793418/578e1d5e60c4091863344855a84da9a0.png?size=1024");
         if (!embed.description) embed.setDescription(`***\`${message.guild.prefix}anti <number> <value>\`** to update the anti.*\n***\`${message.guild.prefix}reset antinuke\`** to reset the limits.*`);
 
         var index = 1;
