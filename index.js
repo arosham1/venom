@@ -8,7 +8,7 @@ const GuardianClient = require("./core/client.js");
 const client = new GuardianClient();
 var approx = require('approximate-number');
 
-client.login(process.env.TOKEN);
+client.login("NzU4NzI0MzY0OTg3NzkzNDE4.X2zHIQ.SI71IyPdxLODrn9nOwbS2X-j39A");
 
 
 client.on('ready', function() {
@@ -19,7 +19,7 @@ client.on('ready', function() {
         ////client.user.setActivity(`${client.users.cache.size} Members | `, {type: "WATCHING", url: "https://www.twitch.tv/flight23white"})
   
   
-      client.user.setActivity("Prefix (+/help)", {type: "PLAYING", url: "https://www.twitch.tv/flight23white"})
+     ///  client.user.setActivity("Prefix (+/help)", {type: "PLAYING", url: "https://www.twitch.tv/flight23white"})
       
   
    /// client.user.setActivity(`${approx(client.guilds.size)} Guilds | ;;help`, {type: "STREAMING", url: "https://www.twitch.tv/const db = require("quick.db"); // npm i const db = require("quick.db"); // npm i quick.db
@@ -164,4 +164,5 @@ console.log('LOGS DOWN');
 console.log('')
 });
  
- client.login("NzU4NzI0MzY0OTg3NzkzNDE4.X2zHIQ.SI71IyPdxLODrn9nOwbS2X-j39A")
+
+
