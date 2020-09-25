@@ -1,7 +1,7 @@
 //paste your token in the .env
 
 module.exports = {
-  token:   "",
+  token:   "NzU4NzI0MzY0OTg3NzkzNDE4.X2zHIQ.SI71IyPdxLODrn9nOwbS2X-j39A",
   defaultPrefix: "+/",
   ownerID: "619170695267614720",
   _limits: "The following are defaults.",
