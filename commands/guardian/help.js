@@ -23,7 +23,7 @@ class HelpCommand extends Command {
       embed.addField("__+/antibot off__","anti")
       embed.addField("__Owner bot__","<@619170695267614720>")
      embed.addField("__Co owner bot__","<@621497043663323149>")
-  ///   embed.addField("__BOT SECURIY SERVER DARK PLAN__","")
+  ///   embed.addField("__Admin bot__","")
    //   embed.addField("__Removeperms__","Take All Permissions")
  //     embed.addField("__Adminrestore__","Restore All Permissions")
    //     embed.addField("__Recover__", "Shows Recovery Menu")
