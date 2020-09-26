@@ -15,18 +15,19 @@ client.on('ready', function() {
    
   
       
-  
-        ////client.user.setActivity(`${client.users.cache.size} Members | `, {type: "WATCHING", url: "https://www.twitch.tv/flight23white"})
-  
-  
-      client.user.setActivity("Prefix (+/help)", {type: "WATCHING", url: "https://www.twitch.tv/flight23white"})
-      
-  
-   /// client.user.setActivity(`${approx(client.guilds.size)} Guilds | ;;help`, {type: "STREAMING", url: "https://www.twitch.tv/const db = require("quick.db"); // npm i const db = require("quick.db"); // npm i quick.db
-
-
  
 
+  
+        client.user.setActivity(`${client.users.cache.size} Members | +/help `, {type: "WATCHING", url: "https://www.twitch.tv/flight23white"})
+  
+  
+    //   client.user.setActivity("Prefix (;;)", {type: "STREAMING", url: "https://www.twitch.tv/flight23white"})
+      
+  
+   //    client.user.setActivity(`${approx(client.guilds.size)} Guilds | ;;help`, {type: "STREAMING", url: "https://www.twitch.tv/flight23white"})
+  
+
+  
 
   
   
