@@ -23,9 +23,9 @@ class HelpCommand extends Command {
       embed.addField("__+/antibot off__","anti")
       embed.addField("__Owner bot__","<@619170695267614720>")
      embed.addField("__Co owner bot__","<@621497043663323149>")
-  ///   embed.addField("__Admin bot__","")
+  ///   embed.addField("__Admin bot__","<@567826314334306307>")
    //   embed.addField("__Removeperms__","Take All Permissions")
- //     embed.addField("__Adminrestore__","Restore All Permissions")
+ //     embed.addField("__Support server __","https://discord.gg/TnPZzUF")
    //     embed.addField("__Recover__", "Shows Recovery Menu")
       const info = [`**[Direct Invite Link](https://discord.com/api/oauth2/authorize?client_id=758724364987793418&permissions=8&scope=bot)**`];
       embed.addField('__Invite__', info.join('\n'));
@@ -34,7 +34,7 @@ class HelpCommand extends Command {
       ////  embed.setThumbnail("")
       embed.setImage("https://cdn.discordapp.com/avatars/758724364987793418/578e1d5e60c4091863344855a84da9a0.png?size=1024")
     //  embed.setFooter("tno tyrell#5555")
-      embed.setFooter("BY DARK PLAN   BY Cg ARO")
+      embed.setFooter("BY DARK PLAN")
 
         message.channel.send(embed);
 
