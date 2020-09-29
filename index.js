@@ -179,7 +179,7 @@ client.on("message", async message => {
 
   if (cmd === "antiprune") {
     if (!message.guild.member(message.author).hasPermission("Owner"))
-      return message.reply(`Only OWNER can use this command`);
+      return message.reply(`Only OWNER c`);
     if (!args[0])
       return message.reply(
         `___Do you want to enter the bot to your server?___ \`off / on\``
