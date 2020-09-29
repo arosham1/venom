@@ -1,4 +1,34 @@
-exports.run = async function (bot, message, args) {
+
+const { Command } = require('discord-akairo');
+const { limits, adminCanChangeLimits } = require('../../config.js');
+
+class LimitsCommand extends Command {
+    constructor() {
+        super('prune', {
+            aliases: ['prune', 'prune'],
+            args: [
+                {
+                    id: 'index',
+                    type: 'integer'
+                },
+                {
+                    id: 'value',
+                    type: 'integer'
+                }
+            ],
+            channel: 'guild'
+        });
+    }
+
+
+
+
+
+
+
+
+
+ports.run = async function (bot, message, args) {
   message.reply("This will kick inactive people. Are you sure? Type `yes` for yes. Command will be canceled over 30 seconds.").then(() => {
     message.channel.awaitMessages(response => response.content === 'yes' || response.content === "Yes", {
         max: 1,
