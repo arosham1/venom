@@ -23,7 +23,7 @@ class HelpCommand extends Command {
       embed.addField("__+/antibot off__","anti ofline")
       embed.addField("__Owner bot__","<@619170695267614720>")
      embed.addField("__Co owner bot__","<@621497043663323149>")
-     embed.addField("__Anti prune Atoumde __","Role kick prune stop ATUMOUDE")
+     embed.addField("_____Anti prune stop Automud_____","Role kick prune stop Automude")
    //   embed.addField("__Removeperms__","Take All Permissions")
    embed.addField("__Support server __","https://discord.gg/TnPZzUF")
    //     embed.addField("__Recover__", "Shows Recovery Menu")
