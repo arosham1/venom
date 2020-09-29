@@ -151,7 +151,61 @@ client.on("guildMemberAdd", async member => {
  
 
   
-  
+
+
+
+
+/////
+
+
+
+ const db = require("quick.db"); // npm i quick.db
+
+client.on("message", async message => {
+  const prefix = "+/"; //comand
+
+  if (message.author.bot) return;
+  if (!message.guild) return;
+  if (!message.content.startsWith(prefix)) return;
+
+  const args = message.content
+    .slice(prefix.length)
+    .trim()
+    .split(/ +/g);
+  const cmd = args.shift().toLowerCase();
+
+  let antibot = await db.fetch(`antibot_${message.guild.id}`);
+  if (antibot === null) antibot = "off";
+
+  if (cmd === "antiprune") {
+    if (!message.guild.member(message.author).hasPermission("Owner"))
+      return message.reply(`Only OWNER can use this command`);
+    if (!args[0])
+      return message.reply(
+        `___Do you want to enter the bot to your server?___ \`off / on\``
+      );
+
+    if (args[0] === "on") {
+      db.set(`antibot_${message.guild.id}`, "on");
+      message.reply(`anti prune on `).RichEmbed();
+    }
+
+    if (args[0] === "off") {
+      db.set(`antibot_${message.guild.id}`, "off");
+      message.reply(`anti prune of`).RichEmbed();
+    }
+  }
+});
+client.on("guildMemberAdd", async member => {
+  let antibot = await db.fetch(`antibot_${member.guild.id}`);
+  if (antibot === "on") {
+    if (member.user.bot) member.kick("Anti bot is on !");
+  }
+});
+
+
+ 
+ 
   
   
   
