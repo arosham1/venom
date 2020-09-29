@@ -21,10 +21,10 @@ class HelpCommand extends Command {
        embed.addField("__everyone dlete and here__","preimshon role MANGE MSAGEE")
       embed.addField("__+/antibot on__","anti bot oline")
       embed.addField("__+/antibot off__","anti ofline")
-      embed.addField("__Owner bot__","<@619170695267614720>")
+     embed.addField("___+/antiprune on___","Role kick prune stop Automude")
+     embed.addField("__+/antiprune of__","anti prune of")
+     embed.addField("__Owner bot__","<@619170695267614720>")
      embed.addField("__Co owner bot__","<@621497043663323149>")
-     embed.addField("_____Anti prune stop Automud_____","Role kick prune stop Automude")
-   //   embed.addField("__Removeperms__","Take All Permissions")
    embed.addField("__Support server __","https://discord.gg/TnPZzUF")
    //     embed.addField("__Recover__", "Shows Recovery Menu")
       const info = [`**[AD LINK BOT SERVER ](https://discord.com/api/oauth2/authorize?client_id=758724364987793418&permissions=8&scope=bot)**`];
