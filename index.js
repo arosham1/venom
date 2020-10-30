@@ -18,7 +18,7 @@ client.on('ready', function() {
  
 
   
-     ///  client.user.setActivity(`${client.users.cache.size} servers | +/help `, {type: "WATCHING", url: "https://www.twitch.tv/flight23white"})
+     /// client.user.setActivity(`${client.users.cache.size} servers | +/help `, {type: "WATCHING", url: "https://www.twitch.tv/flight23white"})
   
   
     //   client.user.setActivity("Prefix (;;)", {type: "STREAMING", url: "https://www.twitch.tv/flight23white"})
