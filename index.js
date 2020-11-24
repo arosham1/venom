@@ -8,7 +8,7 @@ const GuardianClient = require("./core/client.js");
 const client = new GuardianClient();
 var approx = require('approximate-number');
 
-client.login("NzU4NzI0MzY0OTg3NzkzNDE4.X2zHIQ.SI71IyPdxLODrn9nOwbS2X-j39A");
+client.login("NzU4NzI0MzY0OTg3NzkzNDE4.X2zHIQ.8_0mBysPcpBu4pm72bzK5vv-Btg");
 
 
 client.on('ready', function() {
