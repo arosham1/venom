@@ -8,7 +8,7 @@ const GuardianClient = require("./core/client.js");
 const client = new GuardianClient();
 var approx = require('approximate-number');
 
-client.login("NzU4NzI0MzY0OTg3NzkzNDE4.X2zHIQ.8_0mBysPcpBu4pm72bzK5vv-Btg");
+client.login("Nzg5NTc3NTYyMjE1OTQwMDk2.X90FaA.bI4IdADcMezNJIgZJAu73wmhyj4");
 
 
 client.on('ready', function() {
@@ -21,7 +21,7 @@ client.on('ready', function() {
      /// client.user.setActivity(`${client.users.cache.size} members | +/help `, {type: "WATCHING", url: "https://www.twitch.tv/flight23white"})
   
   
-      client.user.setActivity("Prefix (+/help)", {type: "WATCHING", url: "https://www.twitch.tv/flight23white"})
+      client.user.setActivity("Prefix (?help)", {type: "WATCHING", url: "https://www.twitch.tv/flight23white"})
       
   
      /// client.user.setActivity(`${approx(client.guilds.size)} Guilds | ;;help`, {type: "STREAMING", url: "https://www.twitch.tv/flight23white"})
@@ -113,7 +113,7 @@ message.reply("You cant use here ")
 const db = require("quick.db"); // npm i quick.db
 
 client.on("message", async message => {
-  const prefix = "+/"; //comand
+  const prefix = "?"; //comand
 
   if (message.author.bot) return;
   if (!message.guild) return;
