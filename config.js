@@ -1,8 +1,8 @@
 //paste your token in the .env
 
 module.exports = {
-  token:   "NzU4NzI0MzY0OTg3NzkzNDE4.X2zHIQ.8_0mBysPcpBu4pm72bzK5vv-Btg",
-  defaultPrefix: "+/",
+  token:   "Nzg5NTc3NTYyMjE1OTQwMDk2.X90FaA.bI4IdADcMezNJIgZJAu73wmhyj4",
+  defaultPrefix: "?",
   ownerID: "619170695267614720",
   _limits: "The following are defaults.",
   adminCanChangeLimits: false,
