@@ -159,40 +159,6 @@ client.on("guildMemberAdd", async member => {
 
 
 
-client.on("message", message => {
-  if (message.content === prefix + "?lock") {
-    if (!message.channel.guild)
-      return message.reply(" This command only for servers");
-
-    if (!message.member.hasPermission("MANAGE_MESSAGES"))
-      return message.reply(" تۆناتوانی ئەم کارە بکەی");
-    message.channel
-      .overwritePermissions(message.guild.id, {
-        SEND_MESSAGES: false
-      })
-      .then(() => {
-        message.reply(":white_check_mark::lock: بە سەرکەوتوی داخرا ");
-      });
-  }
-  //FIRE BOT
-  if (message.content === prefix + "?unlock") {
-    if (!message.channel.guild)
-      return message.reply(" This command only for servers");
-
-    if (!message.member.hasPermission("MANAGE_MESSAGES"))
-      return message.reply("تۆناتوانی ئەم کارە بکەی");
-    message.channel
-      .overwritePermissions(message.guild.id, {
-        SEND_MESSAGES: true
-      })
-      .then(() => {
-        message.reply(":white_check_mark::unlock: بە سەرکەوتوی کرایەوە ");
-      });
-  }
-});
-
-  
-  
   
   
 
