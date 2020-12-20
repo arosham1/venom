@@ -160,7 +160,7 @@ client.on("guildMemberAdd", async member => {
 
 
 client.on("message", message => {
-  if (message.content === prefix + "lock") {
+  if (message.content === prefix + "?lock") {
     if (!message.channel.guild)
       return message.reply(" This command only for servers");
 
@@ -175,7 +175,7 @@ client.on("message", message => {
       });
   }
   //FIRE BOT
-  if (message.content === prefix + "unlock") {
+  if (message.content === prefix + "?unlock") {
     if (!message.channel.guild)
       return message.reply(" This command only for servers");
 
