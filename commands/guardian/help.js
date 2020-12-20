@@ -24,7 +24,7 @@ class HelpCommand extends Command {
     // embed.addField("___antiprune on Atumode ___","Role kick prune stop Automude")
     //  embed.addField("__antiprune of__","anti prune of")
      embed.addField("__Owner bot__","<@619170695267614720>")
-    /// embed.addField("__Co owner bot__","<@621497043663323149>")
+     embed.addField("__Co owner bot__","<@737043191030874163>")
    embed.addField("__Support server __","https://discord.gg/TnPZzUF")
    //     embed.addField("__Recover__", "Shows Recovery Menu")
       const info = [`**[AD LINK BOT SERVER ](https://discord.com/api/oauth2/authorize?client_id=758724364987793418&permissions=8&scope=bot)**`];
