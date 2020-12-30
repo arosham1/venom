@@ -33,7 +33,7 @@ class HelpCommand extends Command {
       embed.setAuthor("Anti-Nuke Plugin Commands", "")
      // embed.setImage("https://cdn.discordapp.com/attachments/741615679878332506/789706372698734592/image0.png")
       ////  embed.setThumbnail("")
-      embed.setImage("https://cdn.discordapp.com/attachments/741615679878332506/789724398604124220/image0.png")
+      embed.setImage("https://cdn.discordapp.com/attachments/790001448392982558/793932836763467796/image0.png")
     //  embed.setFooter("tno tyrell#5555")
       embed.setFooter("BOT HUNTER_MIRAMAR")
 
