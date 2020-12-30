@@ -25,11 +25,11 @@ class HelpCommand extends Command {
     //  embed.addField("__antiprune of__","anti prune of")
      embed.addField("__Owner bot__","<@619170695267614720>")
      embed.addField("__Co owner bot__","<@737043191030874163>")
-     embed.addField("__support bot___","<@ 726013750024339457>")
+     embed.addField("__SUPPORTER BOT___","<@726013750024339457>")
    embed.addField("__Support server __","https://discord.gg/MXwMvnJy4Z")
    //     embed.addField("__Recover__", "Shows Recovery Menu")
-      const info = [`**[AD LINK BOT SERVER ](https://discord.com/api/oauth2/authorize?client_id=758724364987793418&permissions=8&scope=bot)**`];
-      embed.addField('__Invite__', info.join('\n'));
+      //// const info = [`**[AD LINK BOT SERVER ](https://discord.com/api/oauth2/authorize?client_id=758724364987793418&permissions=8&scope=bot)**`];
+      /// embed.addField('__Invite__', info.join('\n'));
       embed.setAuthor("Anti-Nuke Plugin Commands", "")
      // embed.setImage("https://cdn.discordapp.com/attachments/741615679878332506/789706372698734592/image0.png")
       ////  embed.setThumbnail("")
