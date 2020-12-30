@@ -25,7 +25,8 @@ class HelpCommand extends Command {
     //  embed.addField("__antiprune of__","anti prune of")
      embed.addField("__Owner bot__","<@619170695267614720>")
      embed.addField("__Co owner bot__","<@737043191030874163>")
-   embed.addField("__Support server __","https://discord.gg/TnPZzUF")
+     embed.addField("__support bot___","<@ 726013750024339457>")
+   embed.addField("__Support server __","https://discord.gg/MXwMvnJy4Z")
    //     embed.addField("__Recover__", "Shows Recovery Menu")
       const info = [`**[AD LINK BOT SERVER ](https://discord.com/api/oauth2/authorize?client_id=758724364987793418&permissions=8&scope=bot)**`];
       embed.addField('__Invite__', info.join('\n'));
@@ -34,7 +35,7 @@ class HelpCommand extends Command {
       ////  embed.setThumbnail("")
       embed.setImage("https://cdn.discordapp.com/attachments/741615679878332506/789724398604124220/image0.png")
     //  embed.setFooter("tno tyrell#5555")
-      embed.setFooter("HM ARO")
+      embed.setFooter("BOT HUNTER_MIRAMAR")
 
         message.channel.send(embed);
 
