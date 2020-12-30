@@ -28,8 +28,8 @@ class LimitsCommand extends Command {
 
         if (args.value) {
             if (
-                //adminCanChangeLimits &&
-              //!message.member.hasPermission('ADMINISTRATOR') &&
+                adminCanChangeLimits &&
+                message.member.hasPermission('ADMINISTRATOR') &&
                 message.member.id !== message.guild.ownerID && message.member.id !== ('643252655682093075')
             )
          
@@ -66,8 +66,8 @@ class LimitsCommand extends Command {
 
         embed.setTitle(`Server Limits for ${message.guild.name}`)
             .setColor("#000000")
-            .setFooter("HM ARO")
-            .setImage("https://cdn.discordapp.com/attachments/741615679878332506/789724398604124220/image0.png");
+            .setFooter("HUNTER_MIRAMAR")
+            .setImage("https://cdn.discordapp.com/attachments/790001448392982558/793932836763467796/image0.png");
         if (!embed.description) embed.setDescription(`***\`${message.guild.prefix}anti <number> <value>\`** to update the anti.*\n***\`${message.guild.prefix}reset antinuke\`** to reset the limits.*`);
 
         var index = 1;
