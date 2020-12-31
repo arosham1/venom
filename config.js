@@ -8,7 +8,7 @@ module.exports = {
   adminCanChangeLimits: false,
   limits: {
     user_removals: {
-      per_minute: 4,
+      per_minute: 3,
       per_hour: 24
     },
     role_creations: {
