@@ -30,7 +30,7 @@ class HelpCommand extends Command {
    //     embed.addField("__Recover__", "Shows Recovery Menu")
       //// const info = [`**[AD LINK BOT SERVER ](https://discord.com/api/oauth2/authorize?client_id=758724364987793418&permissions=8&scope=bot)**`];
       /// embed.addField('__Invite__', info.join('\n'));
-      embed.setAuthor("Anti-Nuke Plugin Commands", "")
+      embed.setAuthor("?help Commands", "")
      // embed.setImage("https://cdn.discordapp.com/attachments/741615679878332506/789706372698734592/image0.png")
       ////  embed.setThumbnail("")
       embed.setImage("https://cdn.discordapp.com/attachments/790001448392982558/793932836763467796/image0.png")
