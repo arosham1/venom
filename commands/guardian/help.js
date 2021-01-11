@@ -35,7 +35,7 @@ class HelpCommand extends Command {
       ////  embed.setThumbnail("")
       embed.setImage("https://cdn.discordapp.com/attachments/790001448392982558/793932836763467796/image0.png")
     //  embed.setFooter("tno tyrell#5555")
-      embed.setFooter("BOT HUNTER_MIRAMAR")
+         embed.setFooter("BOT HUNTER_MIRAMAR")
 
         message.channel.send(embed);
 
