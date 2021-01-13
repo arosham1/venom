@@ -16,25 +16,26 @@ class HelpCommand extends Command {
 
 
       embed.setColor("#000000")
-      embed.addField("__+/anti__","Configure Your Server Limits `**OWNER ONLY**`")
-      embed.addField("__+/recent__","Shows Recent Actions")
-       embed.addField("__everyone dlete and here__","Reset Anti-Nuke Settings")
-      embed.addField("__+/antibot ob__","anti")
-      embed.addField("__+/antibot off__","anti")
-      embed.addField("__Owner bot__","<@619170695267614720>")
-     embed.addField("__Co owner bot__","<@621497043663323149>")
-     embed.addField("__BOT SECURIY SERVER DARK PLAN__","Automatically Recover (Unstable)")
-   //   embed.addField("__Removeperms__","Take All Permissions")
- //     embed.addField("__Adminrestore__","Restore All Permissions")
+      embed.addField("__?anti__"," +/anti {number} `**Owner ship and admin strator**`")
+      embed.addField("__?recent__","Shows Recent server")
+      embed.addField("__everyone dlete and here__","preimshon role MANGE MSAGEE")
+      embed.addField("__?antibot on__","anti bot oline")
+      embed.addField("__?antibot off__","anti ofline")
+    // embed.addField("___antiprune on Atumode ___","Role kick prune stop Automude")
+    //  embed.addField("__antiprune of__","anti prune of")
+     embed.addField("__Owner bot__","<@619170695267614720>")
+     embed.addField("__Co owner bot__","<@737043191030874163>")
+     embed.addField("__SUPPORTER BOT___","<@726013750024339457>")
+   embed.addField("__Support server __","https://discord.gg/MXwMvnJy4Z")
    //     embed.addField("__Recover__", "Shows Recovery Menu")
-      const info = [`**[Direct Invite Link](https://discord.com/api/oauth2/authorize?client_id=758724364987793418&permissions=8&scope=bot)**`];
-      embed.addField('__Invite__', info.join('\n'));
-      embed.setAuthor("Anti-Nuke Plugin Commands", "")
-     // embed.setImage("https://cdn.discordapp.com/attachments/717616425040347166/717625089683881994/0e0a866e9011385fb8039376210467a6adc329ede0da13a0c15da6f3340020b9.jpeg")
-      embed.setThumbnail("")
-      embed.setImage("https://cdn.discordapp.com/attachments/700409195719032921/758857832962457660/image0.gif")
+      //// const info = [`**[AD LINK BOT SERVER ](https://discord.com/api/oauth2/authorize?client_id=758724364987793418&permissions=8&scope=bot)**`];
+      /// embed.addField('__Invite__', info.join('\n'));
+      embed.setAuthor("?help Commands", "")
+     // embed.setImage("https://cdn.discordapp.com/attachments/741615679878332506/789706372698734592/image0.png")
+      ////  embed.setThumbnail("")
+      embed.setImage("https://cdn.discordapp.com/attachments/790001448392982558/793932836763467796/image0.png")
     //  embed.setFooter("tno tyrell#5555")
-      embed.setFooter("BY DARK PLAN   BY Cg ARO")
+         embed.setFooter("BOT HUNTER_MIRAMAR")
 
         message.channel.send(embed);
 
