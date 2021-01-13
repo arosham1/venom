@@ -8,28 +8,28 @@ module.exports = {
   adminCanChangeLimits: false,
   limits: {
     user_removals: {
-      per_minute: 0,
-      per_hour: 0
+      per_minute: 3,
+      per_hour: 24
     },
     role_creations: {
-      per_minute: 0,
-      per_hour: 0
+      per_minute: 2,
+      per_hour: 24
     },
     channel_creations: {
-      per_minute: 0,
-      per_hour: 0
+      per_minute: 3,
+      per_hour: 24
     },
     role_deletions: {
-      per_minute: 0,
-      per_hour: 0
+      per_minute: 2,
+      per_hour: 23
     },
     channel_deletions: {
-      per_minute: 0,
-      per_hour: 0
+      per_minute: 3,
+      per_hour:  24
     },
     unbans: {
-      per_minute: 0,
-      per_hour: 0
+      per_minute: 2,
+      per_hour: 24
     }
   },
   _config: "The following are defaults.",
