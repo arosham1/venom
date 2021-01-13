@@ -164,4 +164,4 @@ console.log('LOGS DOWN');
 console.log('')
 });
  
- client.login("NzU3MzM1MTgzMTQ5MjM2MzA5.X2e5Wg.q7Dt0mYDI2j0ndj9wSS9ljrv61U")
+ client.login("token dane")
